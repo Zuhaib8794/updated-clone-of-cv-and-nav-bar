@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{box-sizing: border-box;}
+
+    header{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .navbar{
+    background-color: #6969c2;
+    height: 80px;
+    border-radius: 10px;
+    }
+
+    .navbar ul{
+    padding: 8px 6px;
+    margin: 0px 2px;
+    }
+
+    .navbar li{
+        color: white;
+        float: left;
+        list-style: none;
+        padding: 4px 2px;
+        margin: 19px 21px;
+    }
+
+    .navbar li:hover{
+        color: rgb(236, 168, 168);
+    }
+
+    #search{
+        float: right;
+        width: 157px;
+        padding: 2px 2px;
+        margin: 15px 55px;
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+               <a href="#"><li>Home</li></a> 
+                <a href="#"><li>About us</li></a>
+               <a href="#"><li>Services</li></a> 
+                <a href="#"><li>Contact us</li></a>
+            </ul>
+            <input type="search" id="search" placeholder="search">
+        </nav>
+    </header>
+</body>
+</html>
